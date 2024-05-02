@@ -18,7 +18,6 @@ function App() {
      <Routes>
         <Route element={<ProtectRoute user={user} />}>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/login" element={<Login />} /> */}
           <Route path="/chat/:chatId" element={<Chat />} />
           <Route path="/groups" element={<Groups />} />
         </Route>
